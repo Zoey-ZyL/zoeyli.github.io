@@ -2890,7 +2890,7 @@ input, select, textarea {
 			}
 
 				#logo h1 {
-					font-size: 4.5em;
+					font-size: 2.5em;
 					letter-spacing: 0.2em;
 				}
 
@@ -2941,6 +2941,36 @@ input, select, textarea {
 				#content header.style1 {
 					padding-bottom: 2.5em;
 				}
+
+		/* Profile */
+
+			.profile-card {
+					flex-direction: column; /* Stack items vertically on smaller screens */
+					text-align: center; /* Center-align text for better appearance */
+				}
+			
+			.profile-photo {
+					margin: 20px 20px 20px 20px; /* Remove right margin, add bottom margin */
+					width: 80%; /* Full width for smaller screens */
+					text-align: center; /* Center-align the photo */
+				}
+			
+			.profile-photo img {
+					max-width: 150px; /* Reduce image size on smaller screens */
+				}
+			
+			.profile-details {
+					width: 100%; /* Full width for text on smaller screens */
+				}
+			
+			.profile-details h2 {
+					font-size: 20px; /* Reduce font size for smaller screens */
+				}
+			
+			.button.style1 {
+					padding: 8px 16px; /* Smaller padding for buttons on smaller screens */
+				}
+					
 
 		/* Footer */
 
